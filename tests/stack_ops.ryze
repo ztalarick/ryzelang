@@ -1,0 +1,16 @@
+// Q: Push 1
+Q Q Q
+// Stack should have [1, 1, 1]
+
+// W: Pop
+W
+// Stack should have [1, 1]
+
+// E: Duplicate
+E
+// Stack should have [1, 1, 1]
+
+// EW: Swap
+Q Q QQ // Push 2
+EW
+// Stack should have [1, 1, 2, 1]

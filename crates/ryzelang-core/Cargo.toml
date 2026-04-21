@@ -1,0 +1,12 @@
+[package]
+name = "ryzelang-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tree-sitter = "0.20"
+tree-sitter-ryze = { path = "../tree-sitter-ryze" }
+anyhow = "1.0"
+thiserror = "1.0"
+num-bigint = "0.4"
+num-traits = "0.2"

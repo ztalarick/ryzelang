@@ -1,0 +1,55 @@
+// Ryzelang Hello World!
+// Using only Q, W, E for combo names
+
+// Helper: Double the top of the stack
+[ E QQ ] EEQ R
+
+// Base Numbers
+[ Q Q QQ ] QQQ R
+[ QQQ EEQ ] QQE R
+[ QQE EEQ ] QQW R
+[ QQW EEQ ] QEQ R
+[ QEQ EEQ ] QEE R
+[ QEE EEQ ] QEW R
+
+// 'H' (72) = 64 + 8
+QEW QQW QQ EQE
+
+// 'e' (101) = 64 + 32 + 4 + 1
+QEW QEE QQ QQE QQ Q QQ EQE
+
+// 'l' (108) = 64 + 32 + 8 + 4
+QEW QEE QQ QQW QQ QQE QQ EQE
+
+// 'l' (108)
+QEW QEE QQ QQW QQ QQE QQ EQE
+
+// 'o' (111) = 64 + 32 + 8 + 4 + 2 + 1
+QEW QEE QQ QQW QQ QQE QQ QQQ QQ Q QQ EQE
+
+// ',' (44) = 32 + 8 + 4
+QEE QQW QQ QQE QQ EQE
+
+// ' ' (32)
+QEE EQE
+
+// 'W' (87) = 64 + 16 + 4 + 2 + 1
+QEW QEQ QQ QQE QQ QQQ QQ Q QQ EQE
+
+// 'o' (111)
+QEW QEE QQ QQW QQ QQE QQ QQQ QQ Q QQ EQE
+
+// 'r' (114) = 64 + 32 + 16 + 2
+QEW QEE QQ QEQ QQ QQQ QQ EQE
+
+// 'l' (108)
+QEW QEE QQ QQW QQ QQE QQ EQE
+
+// 'd' (100) = 64 + 32 + 4
+QEW QEE QQ QQE QQ EQE
+
+// '!' (33) = 32 + 1
+QEE Q QQ EQE
+
+// '\n' (10) = 8 + 2
+QQW QQQ QQ EQE

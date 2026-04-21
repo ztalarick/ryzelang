@@ -1,0 +1,28 @@
+# Rust
+/target/
+Cargo.lock
+
+# Node.js
+**/node_modules/
+**/out/
+**/*.vsix
+.vscode-test/
+**/package-lock.json
+
+# Editor
+.DS_Store
+.vscode/
+.idea/
+.zed/
+
+# Tree-sitter
+# (We keep src/parser.c and other generated files for portability)
+**/binding.gyp
+**/build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+notes.md

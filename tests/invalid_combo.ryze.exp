@@ -1,0 +1,9 @@
+
+Error: Runtime Error at Line 1, Col 12: Syntax Error: Malformed structure or invalid symbol.
+Source: 'DBL R'
+
+--- Rune Stack ---
+  (empty)
+
+--- Scroll Stack ---
+  00: [ Q Q QQ ]

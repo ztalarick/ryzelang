@@ -1,0 +1,7 @@
+// Push 5 to Rune stack
+[ Q Q Q Q Q QQ QQ QQ QQ ] QQQQQ R
+
+// Loop: Duplicate, Print, push 1, subtract, check if zero
+[ E EWQ Q QW E EQ [ ] [ QWE ] WEQ ] QWE R
+
+QQQQQ QWE

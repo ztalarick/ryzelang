@@ -1,0 +1,37 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "Ryzelang",
+  "scopeName": "source.ryze",
+  "patterns": [
+    { "include": "#comments" },
+    { "include": "#blocks" },
+    { "include": "#store" },
+    { "include": "#combos" }
+  ],
+  "repository": {
+    "comments": {
+      "patterns": [{
+        "name": "comment.line.double-slash.ryze",
+        "match": "//.*"
+      }]
+    },
+    "blocks": {
+      "patterns": [{
+        "name": "punctuation.bracket.ryze",
+        "match": "\\[|\\]"
+      }]
+    },
+    "store": {
+      "patterns": [{
+        "name": "keyword.control.ryze",
+        "match": "\\bR\\b"
+      }]
+    },
+    "combos": {
+      "patterns": [{
+        "name": "entity.name.function.ryze",
+        "match": "\\b[QWE]+\\b"
+      }]
+    }
+  }
+}

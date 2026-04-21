@@ -1,0 +1,9 @@
+
+Error: Runtime Error at Line 18, Col 1: Math Error (operand 1): Expected integer on Rune Stack, got None
+Source: 'QW'
+
+--- Rune Stack ---
+  (empty)
+
+--- Scroll Stack ---
+  (empty)

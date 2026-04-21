@@ -1,0 +1,88 @@
+[
+  {
+    "type": "block_push",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "block_push",
+          "named": true
+        },
+        {
+          "type": "combo_op",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "combo_op",
+    "named": true,
+    "fields": {
+      "name": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "combo_name",
+            "named": true
+          }
+        ]
+      },
+      "store": {
+        "multiple": false,
+        "required": false,
+        "types": [
+          {
+            "type": "R",
+            "named": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "program",
+    "named": true,
+    "root": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "block_push",
+          "named": true
+        },
+        {
+          "type": "combo_op",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "R",
+    "named": false
+  },
+  {
+    "type": "[",
+    "named": false
+  },
+  {
+    "type": "]",
+    "named": false
+  },
+  {
+    "type": "combo_name",
+    "named": true
+  },
+  {
+    "type": "comment",
+    "named": true,
+    "extra": true
+  }
+]

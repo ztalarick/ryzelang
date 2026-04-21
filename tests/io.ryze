@@ -1,0 +1,10 @@
+// EWQ: Print integer (1+1=2)
+Q Q QQ EWQ // Expect: 2
+
+// EQE: Print ASCII (65='A')
+// 13 = 2 + 1*11
+Q Q QQ Q QQ Q QQ Q QQ Q QQ Q QQ Q QQ Q QQ Q QQ Q QQ Q QQ Q QQ
+// 5 = 2 + 1*3
+Q Q QQ Q QQ Q QQ Q QQ
+WE // 13 * 5 = 65
+EQE // Expect: A

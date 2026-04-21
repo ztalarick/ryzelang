@@ -1,0 +1,42 @@
+{
+  "name": "vscode-ryzelang",
+  "displayName": "Ryzelang",
+  "description": "Syntax highlighting and LSP for the Ryzelang esoteric language.",
+  "version": "0.1.0",
+  "publisher": "Archmage",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "main": "./out/extension.js",
+  "categories": [
+    "Programming Languages"
+  ],
+  "activationEvents": [
+    "onLanguage:ryze"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "ryze",
+      "aliases": ["Ryzelang", "ryze"],
+      "extensions": [".ryze"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "ryze",
+      "scopeName": "source.ryze",
+      "path": "./syntaxes/ryze.tmLanguage.json"
+    }]
+  },
+  "scripts": {
+    "compile": "tsc -p .",
+    "watch": "tsc -watch -p ."
+  },
+  "dependencies": {
+    "vscode-languageclient": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "@types/vscode": "^1.75.0",
+    "typescript": "^4.9.4"
+  }
+}

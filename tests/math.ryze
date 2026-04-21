@@ -1,0 +1,18 @@
+// QQ: Add (1 + 1 = 2)
+Q Q QQ
+
+// QW: Subtract (2 - 1 = 1)
+Q QW
+
+// WE: Multiply (1 * 1 = 1)
+E WE
+
+// WQ: Divide (1 / 1 = 1)
+E WQ
+
+// More complex math
+Q Q QQ Q Q QQ QQ // Push 5 (1+1=2, 1+1+1=3, 2+3=5)
+Q Q QQ QQ       // Push 4 (1+1=2, 2+2=4)
+WE              // 5 * 4 = 20
+Q Q QQ QW       // Push 1 (2-1=1)
+QW              // 20 - 1 = 19

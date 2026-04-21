@@ -1,0 +1,18 @@
+// EE: Create Flux
+Q EE // FluxCharged(1)
+Q Q QQ EE // FluxCharged(2)
+Q Q QW EE // FluxEmpty (1-1=0)
+
+// EQ: Logical NOT / Consume Flux
+EQ // FluxEmpty -> 0
+E EQ // 0 -> 1
+E EQ // 1 -> 0
+W // Clean up
+
+// Consume FluxCharged(2)
+EQ // 2, 1 (Pushes value then 1)
+W W // Clean up
+
+// Consume FluxCharged(1)
+EQ // 1, 1
+W W

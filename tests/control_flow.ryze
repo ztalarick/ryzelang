@@ -1,0 +1,12 @@
+// WEQ: If-then-else
+[ Q ] // True block (pushes 1)
+[ Q Q QQ ] // False block (pushes 2)
+Q // Condition: 1 (True)
+WEQ
+// Stack should have 1
+
+[ Q ] 
+[ Q Q QQ ]
+Q Q QW // Condition: 0 (False)
+WEQ
+// Stack should have 1, 2

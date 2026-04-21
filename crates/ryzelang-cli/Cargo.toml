@@ -1,0 +1,15 @@
+[package]
+name = "ryzelang-cli"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "ryze"
+path = "src/main.rs"
+
+[dependencies]
+ryzelang-core = { path = "../ryzelang-core" }
+tree-sitter-ryze = { path = "../tree-sitter-ryze" }
+tree-sitter = "0.20"
+clap = { version = "4.0", features = ["derive"] }
+anyhow = "1.0"
