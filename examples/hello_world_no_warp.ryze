@@ -1,0 +1,107 @@
+// Hello World in Ryzelang without Realm Warp (R)
+
+// 'H' (72) = 64 + 8
+Q Q QQ E QQ E QQ E QQ E QQ E QQ // 64
+Q Q QQ E QQ E QQ // 8
+QQ EQE
+
+// 'e' (101) = 64 + 32 + 4 + 1
+Q Q QQ E QQ E QQ E QQ E QQ E QQ // 64
+Q Q QQ E QQ E QQ E QQ E QQ // 32
+QQ // 96
+Q Q QQ E QQ // 4
+QQ // 100
+Q QQ // 101
+EQE
+
+// 'l' (108) = 64 + 32 + 8 + 4
+Q Q QQ E QQ E QQ E QQ E QQ E QQ // 64
+Q Q QQ E QQ E QQ E QQ E QQ // 32
+QQ // 96
+Q Q QQ E QQ E QQ // 8
+QQ // 104
+Q Q QQ E QQ // 4
+QQ EQE
+
+// 'l' (108)
+Q Q QQ E QQ E QQ E QQ E QQ E QQ // 64
+Q Q QQ E QQ E QQ E QQ E QQ // 32
+QQ // 96
+Q Q QQ E QQ E QQ // 8
+QQ // 104
+Q Q QQ E QQ // 4
+QQ EQE
+
+// 'o' (111) = 108 + 2 + 1
+Q Q QQ E QQ E QQ E QQ E QQ E QQ // 64
+Q Q QQ E QQ E QQ E QQ E QQ // 32
+QQ // 96
+Q Q QQ E QQ E QQ // 8
+QQ // 104
+Q Q QQ E QQ // 4
+QQ // 108
+Q Q QQ // 2
+QQ // 110
+Q QQ // 111
+EQE
+
+// ' ' (32)
+Q Q QQ E QQ E QQ E QQ E QQ EQE
+
+// 'W' (87) = 64 + 16 + 4 + 2 + 1
+Q Q QQ E QQ E QQ E QQ E QQ E QQ // 64
+Q Q QQ E QQ E QQ E QQ // 16
+QQ // 80
+Q Q QQ E QQ // 4
+QQ // 84
+Q Q QQ // 2
+QQ // 86
+Q QQ // 87
+EQE
+
+// 'o' (111)
+Q Q QQ E QQ E QQ E QQ E QQ E QQ // 64
+Q Q QQ E QQ E QQ E QQ E QQ // 32
+QQ // 96
+Q Q QQ E QQ E QQ // 8
+QQ // 104
+Q Q QQ E QQ // 4
+QQ // 108
+Q Q QQ // 2
+QQ // 110
+Q QQ // 111
+EQE
+
+// 'r' (114) = 96 + 16 + 2
+Q Q QQ E QQ E QQ E QQ E QQ E QQ // 64
+Q Q QQ E QQ E QQ E QQ E QQ // 32
+QQ // 96
+Q Q QQ E QQ E QQ E QQ // 16
+QQ // 112
+Q Q QQ // 2
+QQ EQE
+
+// 'l' (108)
+Q Q QQ E QQ E QQ E QQ E QQ E QQ // 64
+Q Q QQ E QQ E QQ E QQ E QQ // 32
+QQ // 96
+Q Q QQ E QQ E QQ // 8
+QQ // 104
+Q Q QQ E QQ // 4
+QQ EQE
+
+// 'd' (100) = 64 + 32 + 4
+Q Q QQ E QQ E QQ E QQ E QQ E QQ // 64
+Q Q QQ E QQ E QQ E QQ E QQ // 32
+QQ // 96
+Q Q QQ E QQ // 4
+QQ EQE
+
+// '!' (33) = 32 + 1
+Q Q QQ E QQ E QQ E QQ E QQ // 32
+Q QQ EQE
+
+// '\n' (10)
+Q Q QQ E QQ E QQ // 8
+Q Q QQ // 2
+QQ EQE
