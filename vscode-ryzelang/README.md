@@ -59,4 +59,4 @@ Restart VS Code or run the `Developer: Reload Window` command. Open any `.ryze` 
 
 ## License
 
-MIT
+This project is licensed under the MIT License - see the [LICENSE.MD](../LICENSE.MD) file for details.
