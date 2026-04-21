@@ -80,4 +80,4 @@ Run the expectation-based test suite:
 
 ## License
 
-MIT
+This project is licensed under the MIT License - see the [LICENSE.MD](LICENSE.MD) file for details.
