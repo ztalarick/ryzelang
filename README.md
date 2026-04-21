@@ -22,7 +22,6 @@ ryzelang/
 │   └── tree-sitter-ryze/ # Rust bindings for the grammar
 ├── tree-sitter-ryze/     # The formal grammar source (JS/C)
 ├── vscode-ryzelang/      # VS Code extension (Highlighting + LSP Client)
-├── zed-ryzelang/         # Zed editor extension
 └── examples/             # Sample .ryze scripts (Hello World, Countdown)
 ```
 
