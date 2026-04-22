@@ -39,7 +39,9 @@ Ryzelang scripts use the `.ryze` extension. Create a file named `hello.ryze`:
 ```ryze
 // Push numbers to the stack
 Q Q QQ // 1 + 1 = 2
-Q Q QQ Q Q QQ QQ // 2 + 3 = 5
+Q Q QQ // 1 + 1 = 2
+QQ // 2 + 2 = 4
+Q QQ // 1 + 4 = 5
 
 // Print the top value as an integer
 EWQ
