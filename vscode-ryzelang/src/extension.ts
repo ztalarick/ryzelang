@@ -14,8 +14,9 @@ export function activate(context: ExtensionContext) {
 	// The server is implemented in Rust.
 	// We'll point to the binary we've already built.
 	// In a real extension, we would bundle this!
-	const serverPath = path.join(context.extensionPath, '..', 'target', 'debug', 'ryzelang-ls');
-
+	const configuration = workspace.getConfiguration()
+	const serverPath = configuration.get("ryzelang.languageServer.path") as string
+	
 	const run: Executable = {
 		command: serverPath,
 		options: {

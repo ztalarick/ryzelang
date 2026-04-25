@@ -25,7 +25,19 @@
       "language": "ryze",
       "scopeName": "source.ryze",
       "path": "./syntaxes/ryze.tmLanguage.json"
-    }]
+      }
+    ],
+    "configuration": {
+      "title": "ryzelang",
+      "type": "object",
+      "properties": {
+        "ryzelang.languageServer.path": {
+          "type": "string",
+          "default": "ryzelang-ls",
+          "description": "Path to the Ryzelang language server"
+        }
+      }
+    }
   },
   "scripts": {
     "compile": "tsc -p .",
