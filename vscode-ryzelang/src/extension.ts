@@ -1,4 +1,3 @@
-import * as path from 'path';
 import { workspace, ExtensionContext } from 'vscode';
 
 import {
@@ -14,8 +13,7 @@ export function activate(context: ExtensionContext) {
 	// The server is implemented in Rust.
 	// We'll point to the binary we've already built.
 	// In a real extension, we would bundle this!
-	const configuration = workspace.getConfiguration()
-	const serverPath = configuration.get("ryzelang.languageServer.path") as string
+	const serverPath = workspace.getConfiguration('ryzelang').get<string>('languageServer.path', 'ryzelang-ls');
 	
 	const run: Executable = {
 		command: serverPath,
